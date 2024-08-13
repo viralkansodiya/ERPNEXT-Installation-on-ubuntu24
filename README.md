@@ -38,3 +38,17 @@ sudo apt-get install python3-dev python3.12-dev python3-setuptools python3-pip
 ```
 sudo apt-get install python3.12-venv
 ```
+
+## Install Software Common Properties 
+
+```
+sudo apt-get install software-properties-common
+
+```
+
+## Install MariaDB
+
+```
+sudo apt install mariadb-server mariadb-client
+
+```
