@@ -27,13 +27,13 @@ cd /home/[frappe-user]
 ```
 sudo apt-get install git
 ```
-## Install Python and setuptools and dev emvironment
+## Install Python and setuptools and dev environment
 
 ```
 sudo apt-get install python3-dev python3.12-dev python3-setuptools python3-pip
 ```
 
-## Installation of vertual-environment for python 3.12
+## Installation of virtual-environment for python 3.12
 
 ```
 sudo apt-get install python3.12-venv
