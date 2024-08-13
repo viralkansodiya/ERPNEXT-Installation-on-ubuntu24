@@ -52,3 +52,16 @@ sudo apt-get install software-properties-common
 sudo apt install mariadb-server mariadb-client
 
 ```
+
+## Install Redis Server
+
+```
+sudo apt-get install redis-server
+```
+
+## Install Other Packages Which Helps You to Convert HTML to PDF
+
+```
+sudo apt-get install xvfb libfontconfig wkhtmltopdf
+sudo apt-get install libmysqlclient-dev
+```
