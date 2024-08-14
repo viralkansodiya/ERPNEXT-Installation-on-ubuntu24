@@ -141,7 +141,7 @@ sudo pip3 install frappe-bench
 ## Initialize Frappe Bench
 
 ```
-sudo pip3 install frappe-bench
+sudo pip3 install frappe-bench --break-system-packages
 ```
 
 ## Initialize Frappe Bench in a specific version
@@ -152,4 +152,27 @@ bench init --frappe-branch version-15 frappe-bench
 
 ```
 cd frappe-bench
+```
+
+## Apply a permission to user directory
+
+```
+chmod -R o+rx /home/[frappe-user]
+
+```
+
+## Create a new site
+
+```
+bench new-site [site-name]
+```
+
+## Get Erpnext Version-15 and install on your site
+
+```
+bench get-app --branch version-15 erpnext
+```
+
+```
+bench install-app erpnext
 ```
