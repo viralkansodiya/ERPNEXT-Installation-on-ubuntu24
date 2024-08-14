@@ -231,3 +231,18 @@ sudo apt update && sudo apt install supervisor
 ```
 sudo bench setup production [frappe-user]
 ```
+<hr>
+
+# Get other standard and other apps from your github account
+
+Standard App
+
+```
+bench get-app --branch [branch-name or version] [app name]
+```
+
+App from git hub account
+
+```
+bench get-app --branch [branch-name] [app-name] [github remote link]
+```
