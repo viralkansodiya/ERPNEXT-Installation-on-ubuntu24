@@ -176,3 +176,58 @@ bench get-app --branch version-15 erpnext
 ```
 bench install-app erpnext
 ```
+
+## Set up your site for production
+
+```
+bench --site [site-name] enable-scheduler
+```
+
+```
+bench --site [site-name] set-maintenance-mode off
+```
+
+### Setup virtual environment if not setup
+
+## Setup
+
+```
+sudo apt install python3-venv
+python3 -m venv env
+```
+
+## Active your virtual environment
+
+```
+source env/bin/activate
+```
+
+## Install ansible (Python Package)
+
+```
+sudo /usr/bin/python3 -m pip install ansible --break-system-packages
+```
+
+## Install fail2ban
+
+```
+sudo apt install fail2ban
+```
+
+## Install and setup nginx
+
+```
+sudo apt update
+
+sudo apt install nginx
+```
+## Install and setup supervisor
+
+```
+sudo apt update && sudo apt install supervisor
+```
+
+## Setup production
+```
+sudo bench setup production [frappe-user]
+```
