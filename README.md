@@ -101,3 +101,19 @@ collation-server = utf8mb4_unicode_ci
 default-character-set = utf8mb4
 
 ```
+
+## Install Curl
+
+```
+sudo apt install curl
+```
+
+## Install Node
+
+```
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+
+source ~/.profile
+
+nvm install 18
+```
