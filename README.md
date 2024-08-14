@@ -22,12 +22,12 @@ cd /home/[frappe-user]
 ```
 
 
-## Install Git on Ubuntu
+## Install git on ubuntu
 
 ```
 sudo apt-get install git
 ```
-## Install Python and setuptools and dev environment
+## Install python and setuptools and dev environment
 
 ```
 sudo apt-get install python3-dev python3.12-dev python3-setuptools python3-pip
@@ -39,34 +39,34 @@ sudo apt-get install python3-dev python3.12-dev python3-setuptools python3-pip
 sudo apt-get install python3.12-venv
 ```
 
-## Install Software Common Properties 
+## Install software common properties 
 
 ```
 sudo apt-get install software-properties-common
 
 ```
 
-## Install MariaDB
+## Install mariaDB
 
 ```
 sudo apt install mariadb-server mariadb-client
 
 ```
 
-## Install Redis Server
+## Install redis server
 
 ```
 sudo apt-get install redis-server
 ```
 
-## Install Other Packages Which Helps You to Convert HTML to PDF
+## Install other packages which helps you to convert HTML to PDF
 
 ```
 sudo apt-get install xvfb libfontconfig wkhtmltopdf
 sudo apt-get install libmysqlclient-dev
 ```
 
-## Install and setup MySql Server
+## Install and setup MySql server
  
 ```
 sudo mysql_secure_installation
@@ -82,7 +82,7 @@ sudo mysql_secure_installation
  * Remove test database and access to it? [Y/n]: Y
  * Reload privilege tables now? [Y/n]: Y
 
-## Edit you mysql config file 
+## Edit you MySql config file 
 
 ```
 sudo nano /etc/mysql/my.cnf
@@ -108,7 +108,7 @@ default-character-set = utf8mb4
 sudo apt install curl
 ```
 
-## Install Node
+## Install node
 
 ```
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
@@ -138,13 +138,13 @@ sudo npm install -g yarn
 sudo pip3 install frappe-bench
 ```
 
-## Initialize Frappe Bench
+## Initialize frappe bench
 
 ```
 sudo pip3 install frappe-bench --break-system-packages
 ```
 
-## Initialize Frappe Bench in a specific version
+## Initialize frappe-bench in a specific version
 
 ```
 bench init --frappe-branch version-15 frappe-bench
@@ -167,7 +167,7 @@ chmod -R o+rx /home/[frappe-user]
 bench new-site [site-name]
 ```
 
-## Get Erpnext Version-15 and install on your site
+## Get Erpnext version-15 and install on your site
 
 ```
 bench get-app --branch version-15 erpnext
