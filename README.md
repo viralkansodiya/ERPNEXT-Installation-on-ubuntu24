@@ -1,7 +1,7 @@
-### Installation Processs
+### Installation Process
 
 ## Prerequisites
-### Install ubuntu 24 on your vertual mechine or host with ubuntu 24
+### Install Ubuntu 24 on your virtual machine or host with Ubuntu 24
 
 ## Update and Upgrade Packages
 
@@ -12,7 +12,7 @@ sudo apt-get update -y
 ```
 sudo apt-get upgrade -y
 ```
-## Create new user on ubuntu
+## Create new user on Ubuntu
 
 ```
 sudo adduser [frappe-user]
@@ -22,7 +22,7 @@ cd /home/[frappe-user]
 ```
 
 
-## Install git on ubuntu
+## Install git on Ubuntu
 
 ```
 sudo apt-get install git
