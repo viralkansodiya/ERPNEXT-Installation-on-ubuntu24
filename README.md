@@ -65,3 +65,39 @@ sudo apt-get install redis-server
 sudo apt-get install xvfb libfontconfig wkhtmltopdf
 sudo apt-get install libmysqlclient-dev
 ```
+
+## Install and setup MySql Server
+ 
+```
+sudo mysql_secure_installation
+```
+
+ * Enter your current password for root (enter for none):
+   * if you have root pass then input otherwise you can press "Enter" key
+ * Switch to unix_socket authentication [Y/N]: Y
+ * Change the root password [Y/n]: 
+   * 'Y' if you want to change
+ * Remove anonymous user [Y/N]: Y
+ * Disallow root login remotely? [Y/n]: N
+ * Remove test database and access to it? [Y/n]: Y
+ * Reload privilege tables now? [Y/n]: Y
+
+## Edit you mysql config file 
+
+```
+sudo nano /etc/mysql/my.cnf
+```
+
+Copy this below section and past in to your config file
+
+```
+
+[mysqld]
+character-set-client-handshake = FALSE
+character-set-server = utf8mb4
+collation-server = utf8mb4_unicode_ci
+
+[mysql]
+default-character-set = utf8mb4
+
+```
