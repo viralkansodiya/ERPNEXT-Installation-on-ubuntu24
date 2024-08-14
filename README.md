@@ -117,3 +117,39 @@ source ~/.profile
 
 nvm install 18
 ```
+
+## Install npm
+
+```
+sudo apt-get install npm
+
+```
+
+## Install yarn
+
+```
+sudo npm install -g yarn
+
+```
+
+## Install frappe-bench
+
+```
+sudo pip3 install frappe-bench
+```
+
+## Initialize Frappe Bench
+
+```
+sudo pip3 install frappe-bench
+```
+
+## Initialize Frappe Bench in a specific version
+
+```
+bench init --frappe-branch version-15 frappe-bench
+```
+
+```
+cd frappe-bench
+```
